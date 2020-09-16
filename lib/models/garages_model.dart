@@ -4,5 +4,5 @@ class garage_md {
   String vehicle_name;
   int vehicle_odo;
   String img_asset;
-  garage_md({this.vehicle_id,this.vehicle_name,this.vehicle_odo,this.img_asset});
+  garage_md({@required this.vehicle_id,this.vehicle_name,this.vehicle_odo,this.img_asset});
 }
